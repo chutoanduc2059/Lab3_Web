@@ -1,0 +1,98 @@
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2, .date-of-bird, .gender {
+    color: #8cc63f;
+    margin-top: 0;
+}
+.date-of-bird, .gender{
+    color: #8cc63f;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.date-gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-gender input,
+.date-gender select {
+    width: 30%;
+}
+
+.payment-options {
+    display: flex;
+    margin: 10px 0;
+}
+
+.payment-option {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/*.payment-option.active {*/
+/*    background-color: #8cc63f;*/
+/*    color: white;*/
+/*}*/
+.payment-option:hover{
+    background-color: #8cc63f;
+    color: white;
+
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details input,
+.card-details select {
+    width: 48%;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+.terms label {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.terms input {
+    margin-right: 5px;
+}

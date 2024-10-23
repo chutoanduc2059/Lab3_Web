@@ -1,0 +1,96 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-image: url("https://images3.alphacoders.com/133/1337465.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+
+
+}
+
+.container {
+
+    display: block;
+    background-color: #f0f0f0;
+    opacity: 0.8;
+    width: 40%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: Tahoma, Verdana, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    display: inline-grid;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+
+}
+
+
+input {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width: 95%;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 3rem;
+    margin-left: 42%;
+    width: 15%;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+.or-sign-with {
+    margin-left: 40%;
+    margin-top: 4rem;
+    font-family: Tahoma, Verdana, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    color: #333;
+}
+
+.icon {
+    margin-left: 43%;
+    margin-right: 30%;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.ti-facebook {
+    margin-right: 20px;
+}
+
+.sign-up {
+    margin-left: 265px;
+    margin-top: 4rem;
+    font-family: Tahoma, Verdana, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
